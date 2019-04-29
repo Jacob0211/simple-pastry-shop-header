@@ -1,0 +1,146 @@
+/*General*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	overflow: hidden;
+	width: 90%;
+}
+
+/*Header*/
+
+#bake-img {
+	background-image: url("../img/sweets2.jpg");
+	height: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#logo a{
+	float: left;
+	color: #fff;
+}
+
+#logo a:hover {
+
+}
+
+#logo h2 {
+	font-family: 'Pacifico', cursive;
+	color: #f3cbd5;
+	font-size: 1.8em;
+}
+
+
+
+/*Navigation*/
+
+nav {
+	float: right;
+	margin-top: 20px;
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+	padding: 7px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.login {
+	border: 2px solid #fff;
+	font-size: 0.8em;
+	padding: 8px 6px;
+	border-radius: 3px;
+}
+
+.login:hover {
+	background-color: #822542;
+}
+
+.signup {
+	border: 2px solid #fff;
+	font-size: 0.8em;
+	padding: 8px 6px;
+	border-radius: 3px;
+}
+
+.signup:hover {
+	background-color: #822542;
+}
+
+nav li a {
+	color: #fff;
+	letter-spacing: 4px;
+}
+
+nav li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+/*Slogan*/
+
+#slogan {
+	padding-top: 320px;
+	width: 70%;
+}
+
+#slogan h1 {
+	color: #fff;
+	font-size: 2.3em;
+	text-shadow: rgba(0,0,0,0.9) 5px 5px 5px;
+	animation-name: slogan;
+	animation-duration: 4s;
+	position: relative;
+}
+
+@keyframes slogan {
+	0%{left: -1000px;}
+	100%{left: 0;}
+}
+
+#slogan .btn {
+	background-color: #f3cbd5;
+	padding: 12px 14px;
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	animation-name: btn;
+	animation-duration: 4s;
+	animation-delay: 4s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+
+}
+
+#slogan .btn:hover {
+	background-color: #822542;
+	color: #fff;
+	transition: 2s ease;
+}
+
+@keyframes btn {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+
+}
+
